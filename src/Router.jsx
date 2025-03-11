@@ -24,7 +24,7 @@ const stripePromise = loadStripe(
 function Router() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Amazon-Project">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/Auth" element={<Auth />} />
