@@ -66,7 +66,7 @@ function Orders() {
             })}
           </div>
         </div>
-        ()
+        
       </section>
     </LayOut>
   );
