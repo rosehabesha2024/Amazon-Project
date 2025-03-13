@@ -33,7 +33,7 @@ function Router() {
             element={
               <ProtectedRoute
                 msg={"you must login to pay"}
-                redirect={"/payments"}
+                redirect={"/payment"}
               >
                 <Elements stripe={stripePromise}>
                   <Payment />
